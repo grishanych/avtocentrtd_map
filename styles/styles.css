@@ -9,39 +9,13 @@ overflow-x: hidden;
 
 }
 
-
-/*a:link {
-}
-
-a:visited {
-color: purple;
-}
-
-a:hover {
-text-decoration: none;
-}
-
-a:active {
-color: purple;
-}*/
-
 @media (max-width: 520px) {
 }
 @media (min-width: 520px) and (max-width: 992px) {
 }
 @media (min-width: 992px) and (max-width: 1280px) {
 }
- 
- 
 
- @media (max-width: 350px) {
-  .argon_welding {
-    margin-left: -30px;
-}} 
- @media (max-width: 350px) {
-  .lathe_work {
-    margin-left: -30px;
-}} 
 /* Intro */
 
 .intro_map {
@@ -104,16 +78,16 @@ color: purple;
     padding-top: 15px;
 }}
 
-.menu li a {
-  width: 52px;
-  height: 13px;
-  color: #ffffff;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 13.54px;
-  text-decoration: none;
-}
+  .menu li a {
+    width: 52px;
+    height: 13px;
+    color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 13.54px;
+    text-decoration: none;
+  }
 
 @media (max-width: 630px) {
   .menu li a{
@@ -121,14 +95,14 @@ color: purple;
     text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 }}
 
-.about_us{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 1920px;
-    height: 780px;
-    background-image:url(../images/bg_info.jpg) ;
+  .about_us{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-width: 1920px;
+      height: 780px;
+      background-image:url(../images/bg_info.jpg) ;
  
 }
 
@@ -138,8 +112,8 @@ color: purple;
     height: 100%;
     }}
 
-.contacts{
-  margin: 60px auto;
+  .contacts{
+    margin: 60px auto;
   }
 
 @media (max-width: 1080px) {
@@ -173,8 +147,8 @@ color: purple;
 }}
 
 
-.contacts h1{
-margin: 10px 0 0 25%;
+  .contacts h1{
+    margin: 10px 0 0 25%;
     color: #db1515;
     font-family: 'Exo 2', sans-serif;
     font-size: 28px;
@@ -183,8 +157,7 @@ margin: 10px 0 0 25%;
     text-transform: uppercase;
 }
 
-.contacts h2{
-   /* display: flex;*/
+  .contacts h2{
     color: #1c1b1b;
     font-family: 'Exo 2', sans-serif;
     font-size: 20px;
@@ -192,53 +165,52 @@ margin: 10px 0 0 25%;
 }
 
 
-.about_servises{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin:0 auto;
-  width: 1110px;
-  height: auto;
+  .about_servises{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0 auto;
+    width: 1110px;
+    height: auto;
 }
 
 @media (max-width: 1080px) {
   .about_servises {
-    /*flex-direction: column;*/
     display: inline-block;
     margin-left: 350px;
     width: 300px;
-      height: auto;
+    height: auto;
    }}
-   @media (max-width: 900px) {
+@media (max-width: 900px) {
   .about_servises {
     margin-left: 250px;
  
     
 }}
-   @media (max-width: 750px) {
+@media (max-width: 750px) {
   .about_servises {
     margin-left: 200px;
 
 }}
-   @media (max-width: 500px) {
+@media (max-width: 500px) {
   .about_servises {
     margin-left: 100px;
 
 }}
-   @media (max-width: 420px) {
+@media (max-width: 420px) {
   .about_servises {
     margin-left: 50px;
 
 }}
-   @media (max-width: 350px) {
+@media (max-width: 350px) {
   .about_servises {
     margin-left: 15px;
 
 }}
 
 
-.about_servises h2{
-  margin-left: 10px;
+  .about_servises h2{
+    margin-left: 10px;
     color: #db1515;
     font-family: 'Exo 2', sans-serif;
     font-size: 20px;
@@ -246,75 +218,76 @@ margin: 10px 0 0 25%;
     line-height: 19.27px;
     text-transform: uppercase;
 }
-.about_servises h3{
-    display: flex;
-    color: #1c1b1b;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+  .about_servises h3{
+      display: flex;
+      color: #1c1b1b;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
 }
-.phone_number{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 220px;
-    margin-top: -30px;        
-    background: url(../images/tel.png) no-repeat ;
-    background-position: left ;
-}
-
-.types_of_services{
-    margin-top: 25px;
-    width: 281px;
-    height: 32px;
-    background-image:url(../images/info_div.png) ;
-}
-.about_servises li{
-    list-style: none;
+  .phone_number{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 220px;
+      margin-top: -30px;        
+      background: url(../images/tel.png) no-repeat ;
+      background-position: left ;
 }
 
-.about_servises li a{
-    display: flex;
-    padding-left: 39px;
-    padding-top:10px;
-    color: #ffffff;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-decoration: none;
+  .types_of_services{
+      margin-top: 25px;
+      width: 281px;
+      height: 32px;
+      background-image:url(../images/info_div.png) ;
+}
+  .about_servises li{
+      list-style: none;
+}
+
+  .about_servises li a{
+      display: flex;
+      padding-left: 39px;
+      padding-top:10px;
+      color: #ffffff;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none;
 }
 
 
 
-.footer {
-    width: 100%;
-    height: 375px;
-    background: url(../images/footer.jpg) no-repeat center;
+  .footer {
+      width: 100%;
+      height: 375px;
+      background: url(../images/footer.jpg) no-repeat center;
 }
-.footer_logo {
-    display: flex;
-    margin: 0 auto;
-    width: 465px;
-    height: 290px ;
-    background: url(../images/logo1.png) no-repeat ;
-    background-position: left bottom;
+  .footer_logo {
+      display: flex;
+      margin: 0 auto;
+      width: 465px;
+      height: 290px ;
+      background: url(../images/logo1.png) no-repeat ;
+      background-position: left bottom;
 }
-.footer_img{
-    margin-top: 150px;
+  .footer_img{
+      margin-top: 150px;
 }
-.footer_tel{
-    margin: 150px 0 25px 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+  .footer_tel{
+      margin: 150px 0 25px 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
 }
 @media (max-width: 900px) {
   .footer_tel {
     margin: 150px 0 25px 180px;
 
-}}
+}
+}
 .footer_tel h2{
     color: #db1515;
     font-family: 'Exo 2', sans-serif;
